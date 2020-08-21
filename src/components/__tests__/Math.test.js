@@ -17,5 +17,5 @@ test("loads and displays greeting", async () => {
   // Act - user is not interacting with this
   // Assert
   // For mor on matchers see jest documentation & https://github.com/testing-library/jest-dom
-  expect(container).toContainHTML(`<span>360</span>`);
+  expect(container).toContainHTML(`<span>False</span>`);
 });
